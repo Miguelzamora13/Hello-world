@@ -8,7 +8,7 @@
 #
 # For more information and configurations options, see https://github.com/datreeio/action-datree
 # 
-- name: Datree CLI
+ name: Datree CLI
   uses: datreeio/action-datree@v1.1.0
             
 name: Datree
