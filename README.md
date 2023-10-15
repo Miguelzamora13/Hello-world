@@ -1,6 +1,14 @@
 # Hello-world
 # test word 
 echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+      - name: Set color
+        id: color-selector
+        run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
+      - name: Get color
+        env:
+          SELECTED_COLOR: ${{ steps.color-selector.outputs.SELECTED_COLOR }}
+        run: echo "The selected color is $SELECTED_COLOR"
+
 echo "{environment_variable_name}={value}" >> "$GITHUB_ENV"
 steps:
   - name: Set the value in bash
