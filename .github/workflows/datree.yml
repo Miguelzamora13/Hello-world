@@ -8,7 +8,7 @@
 #
 # For more information and configurations options, see https://github.com/datreeio/action-datree
 # 
- name: Run Datree Policy Check
++ name: Run Datree Policy Check
   uses: datreeio/action-datree@main
   with:
     path: 'someDirectory/someFile.yaml'
