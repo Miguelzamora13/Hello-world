@@ -1,6 +1,7 @@
 # Hello-world
 # test word 
 npm install semver
+
 echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
 
       - name: Set color
