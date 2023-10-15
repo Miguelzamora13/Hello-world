@@ -1,6 +1,7 @@
 # Hello-world
 # test word 
 echo "### Hello world! :rocket:" >> $GITHUB_STEP_SUMMARY
+
       - name: Set color
         id: color-selector
         run: echo "SELECTED_COLOR=green" >> "$GITHUB_OUTPUT"
