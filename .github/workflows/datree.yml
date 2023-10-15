@@ -6,7 +6,8 @@
 # A sample workflow which checks out your code and scans your desired k8s config files for misconfigurations using the Datree CLI.
 # The results are then uploaded to GitHub Security Code Scanning.
 #
-# For more information and configurations options, see https://github.com/datreeio/action-datree/
+# For more information and configurations options, see https://github.com/datreeio/action-datree
+# 
 - name: Datree CLI
   uses: datreeio/action-datree@v1.1.0
             
