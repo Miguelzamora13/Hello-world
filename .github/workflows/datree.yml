@@ -10,7 +10,7 @@
 - name: Datree CLI
   uses: datreeio/action-datree@v1.1.0
             
-name: Datree
+name: Hello-world
 
 on:
   push:
