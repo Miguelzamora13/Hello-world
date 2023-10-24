@@ -26,4 +26,3 @@ steps:
 name: GitHub Script
                 uses: actions/github-script@v2.1.0
             
-docker pull ghcr.io/miguelzamora13/hello-world:sha256-066e62a2e002cbc828b3cdab1cfd5eba230adf70fbd6d8a32e2cbf790b9c9ba7.sig
